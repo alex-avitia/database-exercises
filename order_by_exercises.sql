@@ -40,4 +40,4 @@ WHERE first_name IN ('Irena', 'Vidya', 'Maya') ORDER BY first_name;
 
 -- SELECT *
 -- FROM employees
--- WHERE last_name LIKE '%q%' AND IS NOT '%qu%';
+-- WHERE last_name LIKE '%q%' NOT LIKE '%qu%';
